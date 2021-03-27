@@ -1,0 +1,23 @@
+#!/bin/bash
+a=123
+echo $a
+if [ $a -ne "123" ]
+then
+echo turn
+else
+echo xxx
+fi
+n=ff
+#:<<!
+if [ ! -d $n ]
+then
+mkdir -p $n
+fi
+#!
+
+
+while [ 2 -ne 2 ]
+do
+echo time lost
+sleep 1s
+done
